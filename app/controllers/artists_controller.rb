@@ -44,6 +44,9 @@ class ArtistsController < ApplicationController
     redirect_to artists_path
   end
 
+    def allow_create_artists
+  end
+
   private
 
   def artist_params
